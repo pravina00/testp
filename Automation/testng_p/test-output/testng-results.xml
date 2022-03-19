@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-18T15:43:36 PDT" name="Sanity Suite" finished-at="2022-03-18T15:43:42 PDT" duration-ms="6034">
+    <groups>
+    </groups>
+    <test started-at="2022-03-18T15:43:36 PDT" name="SanityTest" finished-at="2022-03-18T15:43:42 PDT" duration-ms="6034">
+      <class name="sauce_demo.happy_flow">
+        <test-method is-config="true" signature="Verifying_happyflow()[pri:0, instance:sauce_demo.happy_flow@c333c60]" started-at="2022-03-18T15:43:36 PDT" name="Verifying_happyflow" finished-at="2022-03-18T15:43:36 PDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifying_happyflow -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:sauce_demo.happy_flow@c333c60]" started-at="2022-03-18T15:43:36 PDT" name="beforeTest" finished-at="2022-03-18T15:43:36 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:sauce_demo.happy_flow@c333c60]" started-at="2022-03-18T15:43:36 PDT" name="initWebDriver" finished-at="2022-03-18T15:43:36 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:sauce_demo.happy_flow@c333c60]" started-at="2022-03-18T15:43:36 PDT" name="openBrowser" finished-at="2022-03-18T15:43:36 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="Add_to_cart()[pri:0, instance:sauce_demo.happy_flow@c333c60]" started-at="2022-03-18T15:43:36 PDT" name="Add_to_cart" finished-at="2022-03-18T15:43:38 PDT" duration-ms="2006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_to_cart -->
+        <test-method signature="product_page()[pri:0, instance:sauce_demo.happy_flow@c333c60]" started-at="2022-03-18T15:43:38 PDT" name="product_page" finished-at="2022-03-18T15:43:40 PDT" duration-ms="2002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- product_page -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:sauce_demo.happy_flow@c333c60]" started-at="2022-03-18T15:43:38 PDT" name="openBrowser" finished-at="2022-03-18T15:43:38 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verify_cart()[pri:0, instance:sauce_demo.happy_flow@c333c60]" started-at="2022-03-18T15:43:40 PDT" name="verify_cart" finished-at="2022-03-18T15:43:42 PDT" duration-ms="2002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_cart -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:sauce_demo.happy_flow@c333c60]" started-at="2022-03-18T15:43:40 PDT" name="openBrowser" finished-at="2022-03-18T15:43:40 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:sauce_demo.happy_flow@c333c60]" started-at="2022-03-18T15:43:42 PDT" name="afterTest" finished-at="2022-03-18T15:43:42 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="verifying_happyflow_success()[pri:0, instance:sauce_demo.happy_flow@c333c60]" started-at="2022-03-18T15:43:42 PDT" name="verifying_happyflow_success" finished-at="2022-03-18T15:43:42 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifying_happyflow_success -->
+      </class> <!-- sauce_demo.happy_flow -->
+    </test> <!-- SanityTest -->
+  </suite> <!-- Sanity Suite -->
+</testng-results>

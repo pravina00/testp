@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity Suite">
+    <test name="SanityTest" parallel="none" thread-count='4' >
+        <classes>
+            
+         <!--   <class name="login.LoginTest"/>	
+          <class name="t1.testmethod"/>
+		<class name="userFlow.BuySingleProduct"/>
+-->
+<class name ="sauce_demo.happy_flow"/>
+
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

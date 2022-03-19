@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sanity Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SanityTest(failed)">
+    <classes>
+      <class name="login.LoginTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="quitWebDriver"/>
+          <include name="initWebDriver"/>
+          <include name="loginTest"/>
+          <include name="readProp"/>
+          <include name="afterTest"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- login.LoginTest -->
+    </classes>
+  </test> <!-- SanityTest(failed) -->
+</suite> <!-- Failed suite [Sanity Suite] -->
